@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient( #364649,#708f96);
+
+}
+label {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 10px;
+	display: inline-block;
+  }
+  
+i.fas.fa-shopping-cart {
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+  }
+header {
+	background-color: #364649;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+header h1 {
+	font-size: 2rem;
+	
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	font-size: 20;
+}
+
+nav li {
+	margin: 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	padding: 20px;
+}
+
+.banner {
+	background-image: url("banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h2 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+.centered-text {
+	text-align: center;
+  }
+  
+.banner p {
+	font-size: 1.5rem;
+	margin-bottom: 100px;
+}
+
+.btn {
+	background-color: #364649;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.product-item {
+	flex-basis: calc(25% - 60px);
+	margin-bottom: 100px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.product-item img {
+	width: 90%;
+	margin-bottom: 10px;
+}
+
+.product-item h3 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.product-item p.price {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.product-item .button {
+	background-color: #364649;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+/* Style for the footer */
+footer {
+	background-color: #364649;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 1.2rem;
+}

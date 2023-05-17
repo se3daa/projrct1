@@ -1,0 +1,120 @@
+<link rel="stylesheet" type="text/css" href="file.css">  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUSICA for Music Instruments</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script src="https://assets.codepen.io/16327/Physics2DPlugin3.min.js"></script>
+<script src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"></script>
+	<script>
+		function addToCart(itemName) {
+			localStorage.setItem('cartItem', itemName);
+			window.location.href = 'cart.html';
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<h1><img src="./عجم.png" width="120" alt="عجم"></h1>
+		<nav>
+			<ul>
+				<li><a href="#"><b>Home   |   </b></a></li>
+				<li><a href="#"><b> Products   |   </b></a></li>
+				<li><a href="#"><b>About Us   |   </b></a></li>
+				<li><a href="#"><b>Contact Us   |   </b></a></li>
+				<li><a href="#"><b>Cart      </b></a></li>
+				<li><a href="cart.html"><b><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /></b><i class="fas fa-shopping-cart"></i></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="banner">
+			<h2>Welcome to Music Instruments Market</h2>
+			<p>We offer a wide range of high-quality music instruments at affordable prices.</p>
+			<a href="#" class="btn">Shop Now </a>
+		</section> 
+		<div class="centered-text">
+			<h1><b>Featured Products</b></h1> 
+		  </div>
+		  
+		<section class="products">
+			<div class="product-item">
+				<img src="./guitar2.jpg" alt="Guitar">
+				<h3>Guitar</h3>
+				<p class="price" data-price="900">EGP 900</p>
+				<a href="http://127.0.0.1:5500/Guitar.Html" class="button" onclick="addToCart('Guitar', 900)">Add to Cart</a>
+			  </div>
+			<div class="product-item">
+				<img src="./electric guitar.jpg" alt="electric guitar">
+				<h3>electric guitar</h3>
+				<p class="price">EGP 1300</p>
+				<a href="http://127.0.0.1:5500/elecguitar.html" class="button" onclick="addToCart('electric guitar', 1300)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./Violin.jpg" alt="Violin">
+				<h3>Violin</h3>
+				<p class="price"> EGP 1000</p>
+				<a href="http://127.0.0.1:5500/Violin.Html" class="button" onclick="addToCart('Violin', 1000)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./cello.jpg" alt="cello">
+				<h3>cello</h3>
+				<p class="price">EGP 800</p>
+				<a href="http://127.0.0.1:5500/cello.html" class="button" onclick="addToCart('cello', 800)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./piano.jpg" alt="Piano">
+				<h3>Piano</h3>
+				<p class="price">EGP 14000</p>
+				<a href="http://127.0.0.1:5500/PianoCart.html" class="button" onclick="addToCart('Piano', 14000)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./microphone.jpg" alt="microphone">
+				<h3>microphone</h3>
+				<p class="price">EGP 600</p>
+				<a href="http://127.0.0.1:5500/Microphone.html" class="button" onclick="addToCart('microphone', 600)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./sax.jpg" alt="saxphone">
+				<h3>saxphone</h3>
+				<p class="price">EGP 1500</p>
+				<a href="http://127.0.0.1:5500/sax.html" class="button" onclick="addToCart('saxphone', 1500)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./drums.jpg" alt="Drums">
+				<h3>Drums</h3>
+				<p class="price">EGP 2500</p>
+				<a href="http://127.0.0.1:5500/Drums.html" class="button" onclick="addToCart('Drums', 2500)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./tabla.jpg" alt="Tabla">
+				<h3>Tabla</h3>
+				<p class="price">EGP 400</p>
+				<a href="http://127.0.0.1:5500/tabla.html" class="button" onclick="addToCart('Tabla', 400)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./kalimba.jpg" alt="Kalimba">
+				<h3>Kalimba</h3>
+				<p class="price">EGP 650</p>
+				<a href="http://127.0.0.1:5500/kalimba.html" class="button" onclick="addToCart('Kalimba', 650)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./Accordion.jpeg" alt="Accordion">
+				<h3>Accordion</h3>
+				<p class="price">EGP 2600</p>
+				<a href="http://127.0.0.1:5500/Accordion.html" class="button" onclick="addToCart('Accordion', 2600)">Add to Cart</a>
+			</div>
+			<div class="product-item">
+				<img src="./Mandolin.jpeg" alt="Mandolin">
+				<h3>Mandolin</h3>
+				<p class="price">EGP 700</p>
+				<a href="http://127.0.0.1:5500/Mandolin.html" class="button" onclick="addToCart('Mandolin', 700)">Add to Cart</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Music Instruments Market. All rights reserved.</p>
+	</footer>
+</body>
+</html>
